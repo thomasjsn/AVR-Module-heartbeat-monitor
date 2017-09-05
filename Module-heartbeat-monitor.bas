@@ -59,8 +59,8 @@ Start Watchdog
 Portb = 0
 
 Main:
-'setting 15 second timeout
-If Pind.0 = 0 And Module0 <> 1 Then Module0 = 151
+'setting 10 second timeout
+If Pind.0 = 0 And Module0 <> 1 Then Module0 = 101
 If Pind.1 = 0 And Module1 <> 1 Then Module1 = 101
 If Pind.2 = 0 And Module2 <> 1 Then Module2 = 101
 If Pind.3 = 0 And Module3 <> 1 Then Module3 = 101
